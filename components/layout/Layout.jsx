@@ -4,7 +4,7 @@ import styles from "./Layout.module.scss";
 import Head from "next/head";
 import Router from "next/router";
 
-import Spinner from "./spinner/Spinner";
+import Spinner from "../spinner/Spinner";
 
 const Layout = ({ children, title }) => {
   Router.onRouteChangeStart = () => setSpinnerState(true);
