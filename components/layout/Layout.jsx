@@ -34,6 +34,9 @@ const Layout = ({ children, title }) => {
         <Link href="/hire-me">
           <a>Hire Me</a>
         </Link>
+        <Link href="/blog">
+          <a>Blog</a>
+        </Link>
       </header>
       <div className={styles.content}>
         {spinner}
