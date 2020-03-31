@@ -1,6 +1,7 @@
-$header-container-color: indigo;
-$header-link-color: darkgray;
+$header-container-color : indigo;
+$header-link-color      : darkgray;
 $header-link-hover-color: darkgray;
+
 
 .root {
     display        : flex;
@@ -27,8 +28,15 @@ $header-link-hover-color: darkgray;
             color      : $header-link-hover-color;
         }
     }
-    
+
     footer {
-        padding: 1em;
+        position        : fixed;
+        bottom          : 0;
+        width           : 100%;
+        display         : inline-block;
+        height          : 50px;
+        background-color: #999;
+        display: flex;
+        justify-content: center;
     }
 }

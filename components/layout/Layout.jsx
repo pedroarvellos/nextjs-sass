@@ -35,10 +35,12 @@ const Layout = ({ children, title }) => {
           <a>Hire Me</a>
         </Link>
       </header>
-      {spinner}
-      <h1>{title}</h1>
-      {children}
-      <footer>Footer</footer>
+      <div className={styles.content}>
+        {spinner}
+        <h1>{title}</h1>
+        {children}
+      </div>
+      <footer><p>© 2020 - Pedro Arvellos</p></footer>
     </div>
   );
 };
